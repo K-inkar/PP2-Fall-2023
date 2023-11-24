@@ -32,13 +32,13 @@ while running:
         if event.type == pygame.QUIT:
             running = False
         elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_s:  # Клавиша 's' для воспроизведения
+            if event.key == pygame.K_s:  # s для воспроизведения
                 play_music()
-            elif event.key == pygame.K_w:  # Клавиша 'w' для остановки
+            elif event.key == pygame.K_w:  # w для остановки
                 stop_music()
-            elif event.key == pygame.K_d:  # Клавиша 'd' для следующей песни
+            elif event.key == pygame.K_d:  # d для следующей песни
                 next_song()
-            elif event.key == pygame.K_a:  # Клавиша 'a' для предыдущей песни
+            elif event.key == pygame.K_a:  # a для предыдущей песни
                 previous_song()
 
 pygame.quit()
